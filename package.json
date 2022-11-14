@@ -1,0 +1,19 @@
+{
+  "name": "ounasstask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runCase1.1": "npx cypress run --headed --config-file cypress.config.js --spec 'cypress\\e2e\\tests\\Case1_Arabic.spec.js'",
+    "runCase1.2": "npx cypress run --headed --config-file cypress.config.js --spec 'cypress\\e2e\\tests\\Case1_english.spec.js'",
+    "runAllTests": "npx cypress run --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1"
+  }
+}
